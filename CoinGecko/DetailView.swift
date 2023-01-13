@@ -48,7 +48,6 @@ struct DetailView : View {
                     }
                 }.padding()
                 HTMLStringView(htmlContent: coin.description.en).padding()
-                //LineView(data: [8,23,54,32,12,37,7,23,43], title: "Line chart", legend: "Full screen").padding()
             }
                 .navigationTitle(coin.name)
                 .toolbar {
@@ -115,9 +114,3 @@ class CoinViewModel: ObservableObject {
         }
     }
 }
-
-//struct DetailView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        DetailView()
-//    }
-//}
